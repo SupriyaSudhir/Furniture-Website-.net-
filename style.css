@@ -1,0 +1,99 @@
+#login-form
+{
+	margin-top:0px;
+    height: 949px;
+}
+table
+{
+	border:solid #dcdcdc 1px;
+	padding:25px;
+	box-shadow: 0px 0px 1px rgba(0,0,0,0.2);
+}
+table tr,td
+{
+	padding:15px;
+	
+}
+table tr td input
+{
+	border:solid #e1e1e1 1px;
+	padding-left:10px;
+	font-family:Verdana;
+	font-size:16px;
+	background:#f9f9f9;
+	box-shadow: inset 0px 0px 1px rgba(0,0,0,0.4);
+    }
+
+table tr td b input
+{
+	width:100%;
+	height:45px;
+	border:0px;
+	background:-moz-linear-gradient(top, #595959 , #515151);
+	color:#f9f9f9;
+	font-family:Verdana;
+	font-size:18px;
+	font-weight:bolder;
+	text-transform:uppercase;
+}
+
+table tr td a
+{
+	text-decoration:none;
+	color:#00a2d1;
+	font-family:Verdana;
+	font-size:18px;
+}
+
+admin_head{
+font-family:Verdana;
+	font-size:18px;
+	font-weight:bolder;
+	background:gray;
+}
+
+.titl{
+text-align:center;
+font-size:30px;
+color:#a81f22;
+padding-top:40px;
+}
+span.titl_icon{
+text-align:center;
+
+}
+
+/*-----*/
+
+table tr td textarea
+{
+	width:97%;
+	height:90px;
+	border:solid #e1e1e1 1px;
+	padding-left:10px;
+	font-family:Verdana;
+	font-size:16px;
+	background:#f9f9f9;
+	box-shadow: inset 0px 0px 1px rgba(0,0,0,0.4);
+}
+
+table tr td b textarea
+{
+	width:100%;
+	height:90px;
+	border:0px;
+	background:-moz-linear-gradient(top, #595959 , #515151);
+	color:#f9f9f9;
+	font-family:Verdana;
+	font-size:18px;
+	font-weight:bolder;
+	text-transform:uppercase;
+}
+
+/*---colour link to the admin panel in adminindex.php----*/
+.color_link td a:link{
+	color:red;
+}
+.color_link td a:hover{
+	color:green;
+}
